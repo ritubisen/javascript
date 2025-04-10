@@ -61,9 +61,9 @@ var a = 6
 
 // function ritu(){
 
-//     // var a=4
-//     // var b=4
-//     // console. log(a+b);
+//     var a=4
+//     var b=4
+//     console. log(a+b);
 //     console.log("ritu")
 
 // }
