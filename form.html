@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Form</title>
+  <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+
+      <p id="errname"></p>
+      <input type="text" id="name" placeholder="Your Name"  style="box-shadow:0 0 15px greenyellow ;">
+      <p id="errnumber"></p>
+      <input type="text" id="number" placeholder="Your number"  style="box-shadow:0 0 15px greenyellow ;">
+      <p id="erremail"></p>
+      <input type="text" id="email" placeholder="Your email"  style="box-shadow:0 0 15px greenyellow ;">
+      <p id="errpass"></p>
+      <input type="text" id="password" placeholder=" Your password" style="box-shadow:0 0 15px greenyellow ;">
+      <p id="errlogin"></p>
+      <input type="text" id="con-password" placeholder="confirm";><br><br><br>
+      <input type="submit" value="login" onclick=" return val()" style="width: 100px; background-color: yellowgreen;">
+      <!-- <button type="submit">submit</button> -->
+    </form>
+    <p id="statusMsg"></p>
+  </div>
+
+  <script src="./form.js"></script>
+</body>
+</html>

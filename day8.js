@@ -18,8 +18,8 @@
 //=======================================================dom(document object model)=============================================================//
 
 // document.getElementById('text')
-//document.getElementByIdClassName('text')
-//document.querySelector("#text")
+// document.getElementByIdClassName('text')
+// document.querySelector("#text")
 
 
 
@@ -28,49 +28,64 @@
 //     let show= document.querySelector("#text")
 
 //     show.innerHTML="ritu"
+    
 // }
 
 
-///========================================================normal funtion====================================================================
+// ///========================================================normal funtion====================================================================
 
-function name(){
-    console.log("normal fun");
+// function name(){
+//     console.log("normal fun");
 
+// }
+
+// name();
+
+
+
+
+// ///=================anonymus function==============//
+
+// let okk=function(){
+
+//     console.log("anonymus function")
+// }
+
+// okk();           //isme variable e name s function ko call krta h
+
+// //=================iife(imidiently involve function expression)===================//
+
+
+// (
+//     function(){
+//         console.log("iife")
+//     }
+// )()          //isme last me perenthesis()ka use krke function ko call krte hai 
+
+
+// //=======================arrow function("=>")=======================//
+
+
+// let ritu=()=>{
+//     console.log("arrow function");
+
+// }
+
+// ritu()            ///isme arrow ka use krte hai
+
+
+
+let change=()=>{
+    let ptag= document.querySelector("#text")
+    ptag.style.fontSize="30px"
 }
 
-name();
-
-
-
-
-///=================anonymus function==============//
-
-let okk=function(){
-
-    console.log("anonymus function")
+let hidetext=()=>{
+    let ptag= document.querySelector("#text")
+     ptag.style.display="none"
 }
 
-okk();           //isme variable e name s function ko call krta h
-
-//=================iife(imidiently involve function expression)===================//
-
-
-(
-    function(){
-        console.log("iife")
-    }
-)()          //isme last me perenthesis()ka use krke function ko call krte hai 
-
-
-//=======================arrow function("=>")=======================//
-
-
-let ritu=()=>{
-    console.log("arrow function");
-
+let showtext=()=>{
+    let ptag= document.querySelector("#text")
+     ptag.style.display="block"
 }
-
-ritu()            ///isme arrow ka use krte hai
-
-
-

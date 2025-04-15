@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+    background-image: url(./images/bg3.jpg);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: azure;
+  
+   
+  }
+  
+  .form-container {
+    /* background:grey; */
+    background-image: url(./images/bg3.jpg);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px white;
+    width: 600px;
+  }
+  
+  input, textarea {
+    width: 101%;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* button {
+    width: 100%;
+    background: #007bff;
+    color:black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+  
+  
