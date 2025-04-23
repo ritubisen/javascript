@@ -75,17 +75,17 @@
 
 
 
-let change=()=>{
-    let ptag= document.querySelector("#text")
-    ptag.style.fontSize="30px"
-}
+// let change=()=>{
+//     let ptag= document.querySelector("#text")
+//     ptag.style.fontSize="30px"
+// }
 
-let hidetext=()=>{
-    let ptag= document.querySelector("#text")
-     ptag.style.display="none"
-}
+// let hidetext=()=>{
+//     let ptag= document.querySelector("#text")
+//      ptag.style.display="none"
+// }
 
-let showtext=()=>{
-    let ptag= document.querySelector("#text")
-     ptag.style.display="block"
-}
+// let showtext=()=>{
+//     let ptag= document.querySelector("#text")
+//      ptag.style.display="block"
+// }
